@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Environment secrets
+.env
+
+# Data (too large / sensitive for git)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Model weights
+*.pth
+*.ckpt
+*.safetensors
+
+# OS/editor junk
+.DS_Store
+.vscode/
